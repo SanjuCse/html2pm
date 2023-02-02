@@ -1,0 +1,52 @@
+<!-- CSS  Selectors
+id sel
+=> its alternate for inline styles
+=> used to define  style for 1 instance of specific html tag
+										h2 tag
+					h2		h2		h2			h2		h2  
+					(5instances 5 different styles)
+=> unique style
+		Syn:			#id-name{
+									prop:val;
+									......
+								}	
+=> we have to map "id" selector to some html tag using "id" attribute
+	Syn:		<tag  id="id-name">
+Note:
+ => we can map/apply only 1 id sel to 1 html tag
+ => should not map same id selector for multiple tags
+-->
+<!DOCTYPE html>
+<html lang="en">			 
+   <head>
+	  <title>Page33</title>
+	  <link rel="icon" href="logo1.png"/>
+		<style>
+			#id1{
+				color:red;
+			}
+			#id2{
+				color:green;
+			}
+			#id3{
+				color:blue;
+			}
+		</style>
+   </head>
+   <body>
+		<h1>demo on id selector</h1>
+		<h2 id="id1">Online Training</h2>
+		<h2 id="id2">Classroom Training</h2>
+		<h2 id="id3">Placement Training</h2>
+		<h2 id="id2 id3">Project Training</h2>  <!-- invalid -->
+		<h2 id="id1">Internship</h2>   <!-- invalid -->
+   </body>
+</html>
+
+
+
+
+
+
+
+		
