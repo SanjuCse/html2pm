@@ -1,0 +1,16 @@
+#main-div img{
+width: 200px;
+height: 200px;
+
+
+}
+#main-div{
+
+    background: #ff00ff;
+    text-align: center;
+    color: yellow;
+}
+#flex-div{
+display: flex;
+justify-content: space-evenly;
+}

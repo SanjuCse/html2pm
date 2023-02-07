@@ -1,0 +1,28 @@
+body{
+    background: #4b4b4b;
+}
+#grid-div{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+#grid-div img{
+    width: 200px;
+    height: 200px;
+}
+#grid-div a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+#grid-div p{
+    color: yellow;
+    font-size: 20px;
+    
+}
+#head-div{
+    color: #66ffff;
+    text-align: center;
+}
